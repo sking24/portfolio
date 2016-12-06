@@ -7,6 +7,7 @@ YOUR STYLES
 header {
   display: flex;
   justify-content: center;
+  background-color: rosybrown;
 }
 
 
@@ -15,10 +16,11 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+   background-color: beige;
 }
 
 figure {
-  background: #eee;
+  background: rgba(255,255,255,1);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -34,6 +36,24 @@ figure {
     box-shadow: 0 0 30px #333;
 }
 
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 35px;
+}
+
+h2 {
+    text-align: center;
+    color: bisque;
+    font-size: 45px;
+}
+
+figcaption {
+    color: dimgray;
+}
+
+
+
 /********************
 MEDIA QUERIES
 *******************/
@@ -42,7 +62,7 @@ MEDIA QUERIES
 
   /* Diagnostic Styling. */
   body {
-       background: red;
+       background: rosybrown;
   }
   
 }
@@ -52,7 +72,7 @@ MEDIA QUERIES
 
   /* Diagnostic Styling. */
   body {
-       background: green;
+       background: rosybrown;
   }
 
 }
@@ -62,7 +82,7 @@ MEDIA QUERIES
   
   /* Diagnostic Styling. */
   body {
-       background: blue;
+       background: rosybrown;
   }
 
 }
